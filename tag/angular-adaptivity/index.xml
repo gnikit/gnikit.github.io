@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angular adaptivity | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/tag/angular-adaptivity/</link>
+      <atom:link href="https://gnikit.github.io/tag/angular-adaptivity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Angular adaptivity</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gnikit.github.io/media/sharing_image.jpg</url>
+      <title>Angular adaptivity</title>
+      <link>https://gnikit.github.io/tag/angular-adaptivity/</link>
+    </image>
+    
+    <item>
+      <title>Load balancing angular adaptivity on energy dependent reactor problems</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2020-physor/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2020-physor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of load balancing on parallel performance with Haar wavelets angular adaptivity</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2019-mc/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2019-mc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

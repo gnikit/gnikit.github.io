@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David M. Heyes | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/author/david-m.-heyes/</link>
+      <atom:link href="https://gnikit.github.io/author/david-m.-heyes/index.xml" rel="self" type="application/rss+xml" />
+    <description>David M. Heyes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gnikit.github.io/media/sharing_image.jpg</url>
+      <title>David M. Heyes</title>
+      <link>https://gnikit.github.io/author/david-m.-heyes/</link>
+    </image>
+    
+    <item>
+      <title>Reentrant melting and multiple occupancy crystals of bounded potentials: Simple theory and direct observation by molecular dynamics simulations</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2020-melting-md/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2020-melting-md/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bounded inverse power potentials: Isomorphism and isosbestic points</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2019-bip/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2019-bip/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

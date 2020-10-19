@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;isomorphism&#34; | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/tag/isomorphism/</link>
+      <atom:link href="https://gnikit.github.io/tag/isomorphism/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;isomorphism&#34;</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gnikit.github.io/media/sharing_image.jpg</url>
+      <title>&#34;isomorphism&#34;</title>
+      <link>https://gnikit.github.io/tag/isomorphism/</link>
+    </image>
+    
+    <item>
+      <title>Bounded inverse power potentials: Isomorphism and isosbestic points</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2019-bip/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2019-bip/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Richard P. Smedley-Stevenson | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/author/richard-p.-smedley-stevenson/</link>
+      <atom:link href="https://gnikit.github.io/author/richard-p.-smedley-stevenson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Richard P. Smedley-Stevenson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gnikit.github.io/media/sharing_image.jpg</url>
+      <title>Richard P. Smedley-Stevenson</title>
+      <link>https://gnikit.github.io/author/richard-p.-smedley-stevenson/</link>
+    </image>
+    
+    <item>
+      <title>Impact of load balancing on parallel performance with Haar wavelets angular adaptivity</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2019-mc/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2019-mc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+% Requires this package: https://github.com/wowchemy/hugo-academic-cli
+% can be installed through pip install -U academic
+% The academic import --bibtex tool for some reason converts the equations and
+% LaTex symbols into some custom symbols so you have to take abstracts and
+% copy-paste them into the cite.bib and index.md
+% Publications that have been added and need no further modification have
+% been unlisted by removing the 'at' character so that academic ignores them
+article{Nikiteas2019BIP,
+  abstract  = {The bounded inverse power (BIP) interaction pair potential, $\\phi(r) = 1/(a^q + r^q)^{n/q}$, where a and the exponent, $n$, are constants which control the interaction softness, $q$ is a positive integer, and $r$ is the pair separation, is shown to exhibit isomorphic scaling as does the well-known inverse power potential, i.e., where $a = 0$. If $T$ is the temperature and $\\rho$ is the number density of particles, two state points are isomorphic if a reference state, $\\rho_{0}$, $T_0$, $a_0$ and another state, $\\rho$, $T$, a are related through the relationships $\\rho^{n/3} / T = \\rho^{n/3}_{0} T_{0}$ and $a = a_{0} (\\rho_{0} / \\rho)^{1/3} = a_{0} (T_{0} / T)^{1/n}$. The potential form is therefore density dependent along an isomorph. Molecular dynamics simulations and solutions of the Ornstein-Zernike integral equation for $q = 2$ demonstrate the existence of isosbestic points (IBPs) in the radial distribution function and structure factor for 6 $\\leq$ n $\\leq$ 18 and a wide range of a and $\\rho$ values. For the BIP potentials with not too small a values and over a wide density range, the IBP distance is insensitive to the number density and is equal to the distance, $r_T$ , defined through $\\phi(r_T) = T$. For exponential potentials of the general form, $\\phi(r) = C \\exp(−r^{m})$ with $1 \\leq m \\leq 3$, there are also IBPs which are at $r$ values that are typically ∼10-15{\%} larger than predicted by the formula for $r_T$. Published under license by AIP Publishing. https://doi.org/10.1063/1.5089491},
+  author    = {Nikiteas, Ioannis and Heyes, David M.},
+  doi       = {10.1063/1.5089491},
+  issn      = {00219606},
+  journal   = {J. Chem. Phys},
+  keywords  = {integral equations,isomorphism,potential energy functions},
+  month     = {4},
+  number    = {14},
+  pages     = {144504},
+  pmid      = {30981263},
+  publisher = {American Institute of Physics Inc.},
+  title     = {{Bounded inverse power potentials: Isomorphism and isosbestic points}},
+  url       = {http://aip.scitation.org/doi/10.1063/1.5089491},
+  volume    = {150},
+  year      = {2019}
+}
+inproceedings{Nikiteas2019MC,
+  abstract  = {This paper tests the performance gain of performing load balancing with angular adaptivity, that has been discretised using Haar wavelets. Load balancing on highly refined angular meshes resulted into a reduction in the runtime of approximately 50{\%} on a local machine. The time spent load balancing was found to be proportional to the number of unknowns of the problem, with the rate of the proportionality being dependant on the number of processing cores used. Strong scaling performance of 97{\%} was achieved in 240 cores, dropping to 50{\%} for 480 cores, for a mesh of 405,000 triangular elements. The ratio of nodes to halos indicates that as we adaptively refine, the load balancing algorithm produces an increasing number of partitions with fewer nodes and larger halos. Hence, destroying parallel scaling by performing communications instead of a solving the linear system.},
+  author    = {Nikiteas, Ioannis and Dargaville, Steven and Pain, Christopher C. and Smith, Paul N. and Smedley-Stevenson, Richard P.},
+  booktitle = {International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering, (M{\&}C 2019)},
+  isbn      = {9780894487699},
+  keywords  = {Angular adaptivity,Dynamic load balancing,Haar wavelets},
+  pages     = {2542--2551},
+  title     = {{Impact of load balancing on parallel performance with Haar wavelets angular adaptivity}},
+  year      = {2019},
+  month     = {8}
+}
+inproceedings{Nikiteas2020PHYSOR,
+  abstract      = {This paper presents a novel parallel algorithm capable of solving problems with multiple energy groups, such as reactor core problems, using energy dependent angular $h$-adaptivity coupled with Dynamic Load Balancing (DLB). We use the C5G7 NEA benchmark as an example with our in-house code FETCH2 and compare runtimes and Continuous Degrees of Freedom (CDOFs) between energy independent angular adapting runs with and without DLB. Our results demonstrate a 32\% reduction in CDOFs and a 38\% reduction in runtime in favour of the energy dependent angular adaptivity runs with DLB when compared to energy independent angular adaptivity.},
+  author        = {Nikiteas, Ioannis and Dargaville, Steven and Smith, Paul N and Smedley-stevenson, Richard P and Pain, Christopher C.},
+  booktitle     = {PHYSOR2020 conference proceedings},
+  keywords      = {adaptive wavelets,angular adaptivity,dynamic load balancing,haar wavelets,regular adaptivity},
+  mendeley-tags = {adaptive wavelets,angular adaptivity,haar wavelets,regular adaptivity},
+  title         = {{Load balancing angular adaptivity on energy dependent reactor problems}},
+  year          = {2020},
+  month         = {3}
+}
+article{Nikiteas2020Melting-MD,
+  abstract = {Aspects of the  phase coexistence behavior of the generalized exponential (GEM-m) and bounded versions of inverse power potentials (BIP) based on theory and Molecular Dynamics (MD) simulation data are reported. The GEM-m potential is $\\phi(r)=\exp(-r^{m})$, where $r$ is the pair separation and $m$ is an adjustable exponent. A simple analytic formula for the fluid-solid envelope of the Gaussian Core Model (GCM) which takes account of the known low and high density limiting forms is proposed and shown to represent the simulation data well. The BIP potential is $\\phi(r) = 1/(a^{q}+r^{q})^{n/q}$, where  $a$, $n$, and $q$ are positive constants. The BIP potential Multiple Occupancy Crystal (MOC) or cluster crystals are predicted to form when $q>2$ and $a>0$, for  $n>3$, which compares with the corresponding GEM-m condition of $m>2$. Reentrant melting should occur for the BIP potential when $q \\leq 2$ and $a>0$. MD simulations in which the system was gradually compressed at constant temperature using the BIP potential produced cluster states in the parameter domain expected but it was not possible to establish conclusively whether a multiply occupied crystal or a cluster fluid had formed owing to assembly structural fluctuations. The Random Phase Approximation reproduces very well the BIP MD energy per particle without any discontinuities at the phase boundaries. The Lindemann Melting Rule (LMR)  is shown analytically to give a more rapidly decaying reentrant melting curve boundary than the so-called Melting Indicator (MI) empirical melting criterion which has also been investigated in this study. The MI model gives a better match to the high density phase boundary for small $m$ and $q$ values.},
+  title = {Reentrant melting and multiple occupancy crystals of bounded potentials: Simple theory and direct observation by molecular dynamics simulations},
+  author = {Nikiteas, Ioannis and Heyes, David M.},
+  journal = {Phys. Rev. E},
+  volume = {102},
+  issue = {4},
+  pages = {042102},
+  numpages = {16},
+  year = {2020},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.102.042102},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.102.042102}
+}

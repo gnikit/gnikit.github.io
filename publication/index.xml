@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/publication/</link>
+      <atom:link href="https://gnikit.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gnikit.github.io/media/sharing_image.jpg</url>
+      <title>Publications</title>
+      <link>https://gnikit.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Reentrant melting and multiple occupancy crystals of bounded potentials: Simple theory and direct observation by molecular dynamics simulations</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2020-melting-md/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2020-melting-md/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Load balancing angular adaptivity on energy dependent reactor problems</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2020-physor/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2020-physor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of load balancing on parallel performance with Haar wavelets angular adaptivity</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2019-mc/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2019-mc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bounded inverse power potentials: Isomorphism and isosbestic points</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2019-bip/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2019-bip/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

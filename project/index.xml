@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/project/</link>
+      <atom:link href="https://gnikit.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gnikit.github.io/media/sharing_image.jpg</url>
+      <title>Projects</title>
+      <link>https://gnikit.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Dynamic Load Balancing on tensor product spaces - Part 1</title>
+      <link>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./dogleg_mc2019.gif&#34; alt=&#34;Alt&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gallery with ... &#34;ELPIDA&#34;</title>
+      <link>https://gnikit.github.io/project/gallery-with-elpida/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/project/gallery-with-elpida/</guid>
+      <description>&lt;p&gt;Gallery with &amp;ldquo;ELPIDA&amp;rdquo;, (English translation: Gallery with HOPE) was a 3-day
+art exhibition, organised as a joined venture of Ioannis Giannakoulis, Alexandros Kampis and I
+that took place in Moraitis School aimed to raise funds for the
+Association of Friends and Children with Cancer &lt;a href=&#34;https://www.elpida.org/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;ELPIDA&amp;rdquo;&lt;/a&gt;
+while simultaneously supporting up-and-comming artists from
+the 1st workshop of Athens School of Fine Arts.&lt;/p&gt;
+&lt;p&gt;In total, 152 art pieces were sold raising almost €75,000. The project would not
+have been possible without the kind contribution of the Piraeus Bank Group Cultural Foundation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

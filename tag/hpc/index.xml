@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HPC | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/tag/hpc/</link>
+      <atom:link href="https://gnikit.github.io/tag/hpc/index.xml" rel="self" type="application/rss+xml" />
+    <description>HPC</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gnikit.github.io/media/sharing_image.jpg</url>
+      <title>HPC</title>
+      <link>https://gnikit.github.io/tag/hpc/</link>
+    </image>
+    
+    <item>
+      <title>Impact of load balancing on parallel performance with Haar wavelets angular adaptivity</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2019-mc/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2019-mc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Load Balancing on tensor product spaces - Part 1</title>
+      <link>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./dogleg_mc2019.gif&#34; alt=&#34;Alt&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

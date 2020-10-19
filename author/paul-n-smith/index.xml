@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul N Smith | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/author/paul-n-smith/</link>
+      <atom:link href="https://gnikit.github.io/author/paul-n-smith/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paul N Smith</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gnikit.github.io/media/sharing_image.jpg</url>
+      <title>Paul N Smith</title>
+      <link>https://gnikit.github.io/author/paul-n-smith/</link>
+    </image>
+    
+    <item>
+      <title>Load balancing angular adaptivity on energy dependent reactor problems</title>
+      <link>https://gnikit.github.io/publication/nikiteas-2020-physor/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/publication/nikiteas-2020-physor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
