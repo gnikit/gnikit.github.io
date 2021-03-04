@@ -5,48 +5,12 @@
     <link>https://gnikit.github.io/author/ioannis-nikiteas/</link>
       <atom:link href="https://gnikit.github.io/author/ioannis-nikiteas/index.xml" rel="self" type="application/rss+xml" />
     <description>Ioannis Nikiteas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://gnikit.github.io/media/sharing_image.jpg</url>
       <title>Ioannis Nikiteas</title>
       <link>https://gnikit.github.io/author/ioannis-nikiteas/</link>
     </image>
-    
-    <item>
-      <title>Reentrant melting and multiple occupancy crystals of bounded potentials: Simple theory and direct observation by molecular dynamics simulations</title>
-      <link>https://gnikit.github.io/publication/nikiteas-2020-melting-md/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://gnikit.github.io/publication/nikiteas-2020-melting-md/</guid>
-      <description>&lt;p&gt;Visualisation of crystals forming in a fluid using a Generalized exponential
-(GEM-m) pair potential with &lt;em&gt;m = 4&lt;/em&gt; at a temperature of &lt;em&gt;T = 0.4&lt;/em&gt;&lt;br&gt;
-using 3456 particles.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;compression-gem4-120frames-transparent.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Load balancing angular adaptivity on energy dependent reactor problems</title>
-      <link>https://gnikit.github.io/publication/nikiteas-2020-physor/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://gnikit.github.io/publication/nikiteas-2020-physor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impact of load balancing on parallel performance with Haar wavelets angular adaptivity</title>
-      <link>https://gnikit.github.io/publication/nikiteas-2019-mc/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://gnikit.github.io/publication/nikiteas-2019-mc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bounded inverse power potentials: Isomorphism and isosbestic points</title>
-      <link>https://gnikit.github.io/publication/nikiteas-2019-bip/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://gnikit.github.io/publication/nikiteas-2019-bip/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
