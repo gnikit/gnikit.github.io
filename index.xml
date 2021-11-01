@@ -5,12 +5,186 @@
     <link>https://gnikit.github.io/</link>
       <atom:link href="https://gnikit.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ioannis Nikiteas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2018--2021 Ioannis Nikiteas</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2018--2021 Ioannis Nikiteas</copyright><lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gnikit.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Ioannis Nikiteas</title>
       <link>https://gnikit.github.io/</link>
     </image>
+    
+    <item>
+      <title>tkinter-tooltip</title>
+      <link>https://gnikit.github.io/project/tkinter-tooltip/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/project/tkinter-tooltip/</guid>
+      <description>&lt;h2 id=&#34;what-this-is&#34;&gt;What this is&lt;/h2&gt;
+&lt;p&gt;This is a simple yet fully customisable tooltip/pop-up implementation for
+&lt;code&gt;tkinter&lt;/code&gt; widgets. It is capable of fully integrating with custom &lt;code&gt;tkinter&lt;/code&gt;
+themes both light and dark ones.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/images/header.png&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;normal tooltips&lt;/li&gt;
+&lt;li&gt;show tooltip with &lt;code&gt;s&lt;/code&gt; seconds &lt;code&gt;delay&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;tooltip tracks mouse cursor&lt;/li&gt;
+&lt;li&gt;tooltip displays strings and string returning functions&lt;/li&gt;
+&lt;li&gt;fully customisable, tooltip inherits underlying theme style&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;pip install tkinter-tooltip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;normal-tooltips&#34;&gt;Normal tooltips&lt;/h3&gt;
+&lt;p&gt;By default the tooltip activates when entering and/or moving in the widget are
+and deactivates when leaving and/or pressing any button.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/images/tootil-simple.png&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import tkinter as tk
+import tkinter.ttk as ttk
+from tktooltip import ToolTip
+
+app = tk.Tk()
+b = ttk.Button(app, text=&amp;quot;Button&amp;quot;)
+b.pack()
+ToolTip(b, msg=&amp;quot;Hover info&amp;quot;)
+app.mainloop()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;delayed-tooltip&#34;&gt;Delayed tooltip&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tooltip-delayed.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import tkinter as tk
+import tkinter.ttk as ttk
+from tktooltip import ToolTip
+
+app = tk.Tk()
+b = ttk.Button(app, text=&amp;quot;Button&amp;quot;)
+b.pack()
+ToolTip(b, msg=&amp;quot;Hover info&amp;quot;, delay=2.0)   # True by default
+app.mainloop()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;tracking-tooltip&#34;&gt;Tracking tooltip&lt;/h3&gt;
+&lt;p&gt;Have the tooltip follow the mousse cursor around when moving.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tooltip-tracking.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import tkinter as tk
+import tkinter.ttk as ttk
+from tktooltip import ToolTip
+
+app = tk.Tk()
+b = ttk.Button(app, text=&amp;quot;Button&amp;quot;)
+b.pack()
+ToolTip(b, msg=&amp;quot;Hover info&amp;quot;, follow=True)   # True by default
+app.mainloop()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;function-as-tooltip&#34;&gt;Function as tooltip&lt;/h3&gt;
+&lt;p&gt;Here the tooltip returns the value of &lt;code&gt;time.asctime()&lt;/code&gt; which updates with every
+movement. You can control the refresh rate of the &lt;code&gt;ToolTip&lt;/code&gt; through the &lt;code&gt;refresh&lt;/code&gt;
+argument by default it is set to &lt;code&gt;1s&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-function-refresh.gif&#34; alt=&#34;alt&#34;&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-function.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import time
+import tkinter as tk
+import tkinter.ttk as ttk
+from tktooltip import ToolTip
+
+app = tk.Tk()
+b = ttk.Button(app, text=&amp;quot;Button&amp;quot;)
+b.pack()
+# NOTE: pass the function itself not the return value
+ToolTip(b, msg=time.asctime, delay=0)
+app.mainloop()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;themed-tooltip&#34;&gt;Themed tooltip&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;tkinter-tooltip&lt;/code&gt; is fully aware of the underlying theme (in this case a dark theme),
+and can even be furher customised by passing &lt;code&gt;tk&lt;/code&gt; styling arguments to the tooltip&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-dark-theme.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Style tooltip and underlying the button. If a full theme has been used then
+the &lt;code&gt;ToolTip&lt;/code&gt; will inherit the settings of the theme by default.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import tkinter as tk
+import tkinter.ttk as ttk
+from tktooltip import ToolTip
+
+app = tk.Tk()
+s = ttk.Style()
+s.configure(&amp;quot;custom.TButton&amp;quot;, foreground=&amp;quot;#ffffff&amp;quot;, background=&amp;quot;#1c1c1c&amp;quot;)
+b = ttk.Button(app, text=&amp;quot;Button&amp;quot;, style=&amp;quot;custom.TButton&amp;quot;)
+b.pack()
+ToolTip(b, msg=&amp;quot;Hover info&amp;quot;, delay=0,
+        parent_kwargs={&amp;quot;bg&amp;quot;: &amp;quot;black&amp;quot;, &amp;quot;padx&amp;quot;: 5, &amp;quot;pady&amp;quot;: 5},
+        fg=&amp;quot;#ffffff&amp;quot;, bg=&amp;quot;#1c1c1c&amp;quot;, padx=10, pady=10)
+app.mainloop()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;tkinter-tooltip&lt;/code&gt; is based on the original work performed by
+&lt;a href=&#34;http://code.activestate.com/recipes/576688-tooltip-for-tkinter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tucker Beck&lt;/a&gt;
+licensed under an MIT License.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;MIT License&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>findent PyPi</title>
+      <link>https://gnikit.github.io/project/findent-pypi/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/project/findent-pypi/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/pypi/v/findent.svg&#34; alt=&#34;PyPI Latest Release&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml/badge.svg&#34; alt=&#34;PyPi release&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;This is a wrapper around &lt;a href=&#34;https://sourceforge.net/projects/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;findent&lt;/code&gt;&lt;/a&gt;,
+the robust and performant Fortran formatting tool to permit easy installation with &lt;code&gt;pip&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Normal installation using pip&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pip install findent
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;supported-platforms&#34;&gt;Supported platforms&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;OS&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;th&gt;Architecture&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Linux&lt;/td&gt;
+&lt;td&gt;All with GLIBC 2.27+&lt;/td&gt;
+&lt;td&gt;x64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MacOS&lt;/td&gt;
+&lt;td&gt;10.15+&lt;/td&gt;
+&lt;td&gt;x64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Windows&lt;/td&gt;
+&lt;td&gt;10 and Server&lt;/td&gt;
+&lt;td&gt;x64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;what-is-it-not&#34;&gt;What is it not?&lt;/h2&gt;
+&lt;p&gt;This is not the repository for &lt;code&gt;findent&lt;/code&gt;. Any bugs, questions or feature requests related to &lt;code&gt;findent&lt;/code&gt; should be redirected to
+&lt;a href=&#34;https://github.com/wvermin/findent/issues&#34;&gt;https://github.com/wvermin/findent/issues&lt;/a&gt;,
+the official &lt;code&gt;findent&lt;/code&gt; GitHub repository or to SourceForge.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Magnetic Field Dual Coil Visualisation</title>
+      <link>https://gnikit.github.io/project/magnetic-field-coil-visualisation/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://gnikit.github.io/project/magnetic-field-coil-visualisation/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;A GUI which generates Mayavi interactive plots of the magnetic field streamlines
+induced by two coils parallel to each other as described in
+Bergeman et al. work titled &amp;ldquo;Magneto-static trapping fields for neutral atoms&amp;rdquo;
+in Phys Rev A Vol.35, N 4, pp. 1535-1546.&lt;/p&gt;
+&lt;p&gt;The plots are fully interactive with the ability to call on Mayavi&amp;rsquo;s
+pipeline in order to alter the underlying physical system.&lt;/p&gt;
+&lt;p&gt;The animation below uses a spherical element to inspect and visualise the
+magnetic field streamlines passing through that volume in space.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./coil_animation.gif&#34; alt=&#34;Alt&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Reentrant melting and multiple occupancy crystals of bounded potentials: Simple theory and direct observation by molecular dynamics simulations</title>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Ioannis Nikiteas</title>
-    <link>https://gnikit.github.io/project/</link>
-      <atom:link href="https://gnikit.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>Visualisation | Ioannis Nikiteas</title>
+    <link>https://gnikit.github.io/tag/visualisation/</link>
+      <atom:link href="https://gnikit.github.io/tag/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Visualisation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2018--2021 Ioannis Nikiteas</copyright><lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gnikit.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Projects</title>
-      <link>https://gnikit.github.io/project/</link>
+      <title>Visualisation</title>
+      <link>https://gnikit.github.io/tag/visualisation/</link>
     </image>
     
     <item>
@@ -121,54 +121,6 @@ licensed under an MIT License.&lt;/p&gt;
     </item>
     
     <item>
-      <title>findent PyPi</title>
-      <link>https://gnikit.github.io/project/findent-pypi/</link>
-      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://gnikit.github.io/project/findent-pypi/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/pypi/v/findent.svg&#34; alt=&#34;PyPI Latest Release&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml/badge.svg&#34; alt=&#34;PyPi release&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
-&lt;p&gt;This is a wrapper around &lt;a href=&#34;https://sourceforge.net/projects/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;findent&lt;/code&gt;&lt;/a&gt;,
-the robust and performant Fortran formatting tool to permit easy installation with &lt;code&gt;pip&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Normal installation using pip&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pip install findent
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;supported-platforms&#34;&gt;Supported platforms&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;OS&lt;/th&gt;
-&lt;th&gt;Version&lt;/th&gt;
-&lt;th&gt;Architecture&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Linux&lt;/td&gt;
-&lt;td&gt;All with GLIBC 2.27+&lt;/td&gt;
-&lt;td&gt;x64&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;MacOS&lt;/td&gt;
-&lt;td&gt;10.15+&lt;/td&gt;
-&lt;td&gt;x64&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Windows&lt;/td&gt;
-&lt;td&gt;10 and Server&lt;/td&gt;
-&lt;td&gt;x64&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;what-is-it-not&#34;&gt;What is it not?&lt;/h2&gt;
-&lt;p&gt;This is not the repository for &lt;code&gt;findent&lt;/code&gt;. Any bugs, questions or feature requests related to &lt;code&gt;findent&lt;/code&gt; should be redirected to
-&lt;a href=&#34;https://github.com/wvermin/findent/issues&#34;&gt;https://github.com/wvermin/findent/issues&lt;/a&gt;,
-the official &lt;code&gt;findent&lt;/code&gt; GitHub repository or to SourceForge.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Magnetic Field Dual Coil Visualisation</title>
       <link>https://gnikit.github.io/project/magnetic-field-coil-visualisation/</link>
       <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
@@ -183,31 +135,6 @@ pipeline in order to alter the underlying physical system.&lt;/p&gt;
 &lt;p&gt;The animation below uses a spherical element to inspect and visualise the
 magnetic field streamlines passing through that volume in space.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./coil_animation.gif&#34; alt=&#34;Alt&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dynamic Load Balancing on tensor product spaces - Part 1</title>
-      <link>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;./dogleg_mc2019.gif&#34; alt=&#34;Alt&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Gallery with ... &#34;ELPIDA&#34;</title>
-      <link>https://gnikit.github.io/project/gallery-with-elpida/</link>
-      <pubDate>Fri, 27 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://gnikit.github.io/project/gallery-with-elpida/</guid>
-      <description>&lt;p&gt;Gallery with &amp;ldquo;ELPIDA&amp;rdquo;, (English translation: Gallery with HOPE) was a 3-day
-art exhibition, organised as a joined venture of Ioannis Giannakoulis, Alexandros Kampis and I
-that took place in Moraitis School aimed to raise funds for the
-Association of Friends and Children with Cancer &lt;a href=&#34;https://www.elpida.org/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;ELPIDA&amp;rdquo;&lt;/a&gt;
-while simultaneously supporting up-and-comming artists from
-the 1st workshop of Athens School of Fine Arts.&lt;/p&gt;
-&lt;p&gt;In total, 152 art pieces were sold raising almost €75,000. The project would not
-have been possible without the kind contribution of the Piraeus Bank Group Cultural Foundation.&lt;/p&gt;
 </description>
     </item>
     

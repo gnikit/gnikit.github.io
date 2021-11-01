@@ -2,10 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gnikit.github.io/publication-type/2/</loc>
-    <lastmod>2020-10-19T10:00:59+01:00</lastmod>
+    <loc>https://gnikit.github.io/tag/gui/</loc>
+    <lastmod>2021-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gnikit.github.io/</loc>
+    <lastmod>2021-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/project/</loc>
+    <lastmod>2021-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/tags/</loc>
+    <lastmod>2021-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/project/tkinter-tooltip/</loc>
+    <lastmod>2021-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/tag/visualisation/</loc>
+    <lastmod>2021-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/tag/electromagnetism/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/project/findent-pypi/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/tag/fortran/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/project/magnetic-field-coil-visualisation/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/tag/pypi/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/tag/python/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/tag/tools/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gnikit.github.io/publication-type/2/</loc>
     <lastmod>2020-10-19T10:00:59+01:00</lastmod>
   </url><url>
     <loc>https://gnikit.github.io/publication_types/</loc>
@@ -38,9 +74,6 @@
     <loc>https://gnikit.github.io/publication/nikiteas-2020-physor/</loc>
     <lastmod>2020-09-21T23:23:20+01:00</lastmod>
   </url><url>
-    <loc>https://gnikit.github.io/tags/</loc>
-    <lastmod>2020-09-21T23:23:20+01:00</lastmod>
-  </url><url>
     <loc>https://gnikit.github.io/tag/hpc/</loc>
     <lastmod>2020-09-21T22:58:24+01:00</lastmod>
   </url><url>
@@ -69,9 +102,6 @@
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gnikit.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gnikit.github.io/project/gallery-with-elpida/</loc>
