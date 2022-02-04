@@ -5,9 +5,9 @@
     <link>https://gnikit.github.io/</link>
       <atom:link href="https://gnikit.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Ioannis Nikiteas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2018--2021 Ioannis Nikiteas</copyright><lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2018--2022 Ioannis Nikiteas</copyright><lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://gnikit.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://gnikit.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Ioannis Nikiteas</title>
       <link>https://gnikit.github.io/</link>
     </image>
@@ -21,7 +21,27 @@
 &lt;p&gt;This is a simple yet fully customisable tooltip/pop-up implementation for
 &lt;code&gt;tkinter&lt;/code&gt; widgets. It is capable of fully integrating with custom &lt;code&gt;tkinter&lt;/code&gt;
 themes both light and dark ones.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/images/header.png&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/images/header.png&#34; alt=&#34;alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;normal tooltips&lt;/li&gt;
@@ -37,7 +57,27 @@ themes both light and dark ones.&lt;/p&gt;
 &lt;h3 id=&#34;normal-tooltips&#34;&gt;Normal tooltips&lt;/h3&gt;
 &lt;p&gt;By default the tooltip activates when entering and/or moving in the widget are
 and deactivates when leaving and/or pressing any button.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/images/tootil-simple.png&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/images/tootil-simple.png&#34; alt=&#34;alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import tkinter as tk
 import tkinter.ttk as ttk
 from tktooltip import ToolTip
@@ -49,7 +89,27 @@ ToolTip(b, msg=&amp;quot;Hover info&amp;quot;)
 app.mainloop()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;delayed-tooltip&#34;&gt;Delayed tooltip&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tooltip-delayed.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tooltip-delayed.gif&#34; alt=&#34;alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import tkinter as tk
 import tkinter.ttk as ttk
 from tktooltip import ToolTip
@@ -62,7 +122,27 @@ app.mainloop()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;tracking-tooltip&#34;&gt;Tracking tooltip&lt;/h3&gt;
 &lt;p&gt;Have the tooltip follow the mousse cursor around when moving.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tooltip-tracking.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tooltip-tracking.gif&#34; alt=&#34;alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import tkinter as tk
 import tkinter.ttk as ttk
 from tktooltip import ToolTip
@@ -77,8 +157,48 @@ app.mainloop()
 &lt;p&gt;Here the tooltip returns the value of &lt;code&gt;time.asctime()&lt;/code&gt; which updates with every
 movement. You can control the refresh rate of the &lt;code&gt;ToolTip&lt;/code&gt; through the &lt;code&gt;refresh&lt;/code&gt;
 argument by default it is set to &lt;code&gt;1s&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-function-refresh.gif&#34; alt=&#34;alt&#34;&gt;
-&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-function.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-function-refresh.gif&#34; alt=&#34;alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-function.gif&#34; alt=&#34;alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import time
 import tkinter as tk
 import tkinter.ttk as ttk
@@ -94,7 +214,27 @@ app.mainloop()
 &lt;h3 id=&#34;themed-tooltip&#34;&gt;Themed tooltip&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;tkinter-tooltip&lt;/code&gt; is fully aware of the underlying theme (in this case a dark theme),
 and can even be furher customised by passing &lt;code&gt;tk&lt;/code&gt; styling arguments to the tooltip&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-dark-theme.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/gnikit/tkinter-tooltip/master/assets/animations/tootip-dark-theme.gif&#34; alt=&#34;alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Style tooltip and underlying the button. If a full theme has been used then
 the &lt;code&gt;ToolTip&lt;/code&gt; will inherit the settings of the theme by default.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import tkinter as tk
@@ -125,8 +265,48 @@ licensed under an MIT License.&lt;/p&gt;
       <link>https://gnikit.github.io/project/findent-pypi/</link>
       <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://gnikit.github.io/project/findent-pypi/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/pypi/v/findent.svg&#34; alt=&#34;PyPI Latest Release&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml/badge.svg&#34; alt=&#34;PyPi release&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://img.shields.io/pypi/v/findent.svg&#34; alt=&#34;PyPI Latest Release&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml/badge.svg&#34; alt=&#34;PyPi release&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
 &lt;p&gt;This is a wrapper around &lt;a href=&#34;https://sourceforge.net/projects/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;findent&lt;/code&gt;&lt;/a&gt;,
 the robust and performant Fortran formatting tool to permit easy installation with &lt;code&gt;pip&lt;/code&gt;.&lt;/p&gt;
@@ -163,7 +343,7 @@ the robust and performant Fortran formatting tool to permit easy installation wi
 &lt;/table&gt;
 &lt;h2 id=&#34;what-is-it-not&#34;&gt;What is it not?&lt;/h2&gt;
 &lt;p&gt;This is not the repository for &lt;code&gt;findent&lt;/code&gt;. Any bugs, questions or feature requests related to &lt;code&gt;findent&lt;/code&gt; should be redirected to
-&lt;a href=&#34;https://github.com/wvermin/findent/issues&#34;&gt;https://github.com/wvermin/findent/issues&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/wvermin/findent/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/wvermin/findent/issues&lt;/a&gt;,
 the official &lt;code&gt;findent&lt;/code&gt; GitHub repository or to SourceForge.&lt;/p&gt;
 </description>
     </item>
@@ -182,7 +362,27 @@ in Phys Rev A Vol.35, N 4, pp. 1535-1546.&lt;/p&gt;
 pipeline in order to alter the underlying physical system.&lt;/p&gt;
 &lt;p&gt;The animation below uses a spherical element to inspect and visualise the
 magnetic field streamlines passing through that volume in space.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./coil_animation.gif&#34; alt=&#34;Alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./coil_animation.gif&#34; alt=&#34;Alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -194,7 +394,29 @@ magnetic field streamlines passing through that volume in space.&lt;/p&gt;
       <description>&lt;p&gt;Visualisation of crystals forming in a fluid using a Generalized exponential
 (GEM-m) pair potential with &lt;em&gt;m = 4&lt;/em&gt; at a temperature of &lt;em&gt;T = 0.4&lt;/em&gt;&lt;br&gt;
 using 3456 particles.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;compression-gem4-120frames-transparent.gif&#34; alt=&#34;alt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;alt&#34;
+           src=&#34;https://gnikit.github.io/publication/nikiteas-2020-melting-md/compression-gem4-120frames-transparent.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -273,15 +495,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
@@ -356,7 +578,27 @@ Three
       <link>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://gnikit.github.io/project/dynamic-load-balancing-on-tensor-product-spaces-part-1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;./dogleg_mc2019.gif&#34; alt=&#34;Alt&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./dogleg_mc2019.gif&#34; alt=&#34;Alt&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     

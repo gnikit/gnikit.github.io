@@ -5,9 +5,9 @@
     <link>https://gnikit.github.io/tag/pypi/</link>
       <atom:link href="https://gnikit.github.io/tag/pypi/index.xml" rel="self" type="application/rss+xml" />
     <description>PyPi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2018--2021 Ioannis Nikiteas</copyright><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2018--2022 Ioannis Nikiteas</copyright><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://gnikit.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://gnikit.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>PyPi</title>
       <link>https://gnikit.github.io/tag/pypi/</link>
     </image>
@@ -17,8 +17,48 @@
       <link>https://gnikit.github.io/project/findent-pypi/</link>
       <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://gnikit.github.io/project/findent-pypi/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.shields.io/pypi/v/findent.svg&#34; alt=&#34;PyPI Latest Release&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml/badge.svg&#34; alt=&#34;PyPi release&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://img.shields.io/pypi/v/findent.svg&#34; alt=&#34;PyPI Latest Release&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/gnikit/findent-pypi/actions/workflows/main.yml/badge.svg&#34; alt=&#34;PyPi release&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
 &lt;p&gt;This is a wrapper around &lt;a href=&#34;https://sourceforge.net/projects/findent/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;findent&lt;/code&gt;&lt;/a&gt;,
 the robust and performant Fortran formatting tool to permit easy installation with &lt;code&gt;pip&lt;/code&gt;.&lt;/p&gt;
@@ -55,7 +95,7 @@ the robust and performant Fortran formatting tool to permit easy installation wi
 &lt;/table&gt;
 &lt;h2 id=&#34;what-is-it-not&#34;&gt;What is it not?&lt;/h2&gt;
 &lt;p&gt;This is not the repository for &lt;code&gt;findent&lt;/code&gt;. Any bugs, questions or feature requests related to &lt;code&gt;findent&lt;/code&gt; should be redirected to
-&lt;a href=&#34;https://github.com/wvermin/findent/issues&#34;&gt;https://github.com/wvermin/findent/issues&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/wvermin/findent/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/wvermin/findent/issues&lt;/a&gt;,
 the official &lt;code&gt;findent&lt;/code&gt; GitHub repository or to SourceForge.&lt;/p&gt;
 </description>
     </item>
